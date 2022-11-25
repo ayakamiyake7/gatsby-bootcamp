@@ -1,8 +1,6 @@
 import * as React from "react";
 import { Link } from "gatsby";
-import Footer from "./components/footer";
-import Header from "./components/header";
-import Layout from "./components/layout";
+import Layout from "../components/layout";
 
 const IndexPage = () => {
   return (
