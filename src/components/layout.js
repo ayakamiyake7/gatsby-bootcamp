@@ -3,13 +3,13 @@ import Header from "./header";
 import Footer from "./footer";
 import "../styles/index.scss";
 
-const Layout = (props) => {
+const Layout = ({ children }) => {
   return (
-    <div>
+    <>
       <Header />
-      {props.children}
+      {children}
       <Footer />
-    </div>
+    </>
   );
 };
 
